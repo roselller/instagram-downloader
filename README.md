@@ -4,7 +4,7 @@ A fast, minimalist single-page web application inspired by **fastdl.app** that l
 
 ---
 
-## ✨ Features
+## Features
 
 - **Multi-Format Support:** Accepts and validates `/p/`, `/reel/`, `/reels/`, and `/tv/` URLs (with or without query parameters or mobile prefixes like `m.instagram.com`).
 - **High Definition (HD / 4K):** Automatically extracts the highest resolution source files from metadata with selectable quality tiers (e.g. 1080p Full HD vs 720p HD).
@@ -21,7 +21,7 @@ A fast, minimalist single-page web application inspired by **fastdl.app** that l
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** Next.js 14 (App Router), React 18, TypeScript, Tailwind CSS, Lucide Icons
 - **Backend API Routes:**
@@ -32,7 +32,7 @@ A fast, minimalist single-page web application inspired by **fastdl.app** that l
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Installation
 
@@ -57,7 +57,7 @@ npm run start
 
 ---
 
-## 🧪 Automated Testing
+## Automated Testing
 
 InstaSave includes a comprehensive end-to-end test suite testing homepage rendering, invalid URL rejection, reel metadata parsing, direct video streaming, high-res photo downloads, and carousel ZIP archive generation.
 
@@ -69,7 +69,7 @@ node tests/e2e.test.mjs
 
 ---
 
-## 📋 API Specifications
+## API Specifications
 
 ### `POST /api/fetch-post`
 Fetches and parses public Instagram post metadata.
@@ -129,6 +129,6 @@ Content-Type: application/zip
 
 ---
 
-## ⚖️ Legal & Compliance Notice
+## Legal & Compliance Notice
 
 > **Disclaimer:** InstaSave is strictly for personal, non-commercial use. Users must only download content they own or have explicit permission to use. InstaSave is an independent open-source tool and is not affiliated with, endorsed, or sponsored by Instagram™ or Meta Platforms, Inc.
